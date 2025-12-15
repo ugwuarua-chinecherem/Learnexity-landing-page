@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 export default function TestimonialsSection({ setCurrentPage }) {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const videoTestimonials = [
-    { src: '/videos/testimonial-video-1.mp4', poster: '/images/video-image-1.PNG', name: 'Student 1' },
-    { src: '/videos/testimonial-video-2.mp4', poster: '/images/video-image-2.PNG', name: 'Student 2' },
-    { src: '/videos/testimonial-video-3.mp4', poster: '/images/video-image-3.PNG', name: 'Student 3' }
+    { src: '/videos/testimonial-video-1.mp4', poster: '/images/video-image-1.PNG', name: 'Gabriella' },
+    { src: '/videos/testimonial-video-2.mp4', poster: '/images/video-image-2.PNG', name: 'Kingsley' },
+    { src: '/videos/testimonial-video-3.mp4', poster: '/images/video-image-3.PNG', name: 'Learnexity team' }
   ];
 
   const nextVideo = () => setCurrentVideoIndex(prev => prev === videoTestimonials.length - 1 ? 0 : prev + 1);
