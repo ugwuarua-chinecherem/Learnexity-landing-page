@@ -22,11 +22,11 @@ export default function TestimonialsSection({ setCurrentPage }) {
         </div>
         <div className="space-y-6 mb-12 sm:mb-20">
           <div className="bg-white text-purple-600 rounded-3xl p-6 sm:p-8">
-            <p className="text-base sm:text-lg mb-4">"The mentorship I received was life-changing..."</p>
+            <p className="text-base sm:text-lg mb-4">"The mentorship I received was life-changing. It connected me with someone in my dream field!"</p>
             <p className="font-bold">— Tunde A., Tech Intern</p>
           </div>
           <div className="bg-white text-purple-600 rounded-3xl p-6 sm:p-8">
-            <p className="text-base sm:text-lg mb-4">"Learnexity helped me land my first internship..."</p>
+            <p className="text-base sm:text-lg mb-4">"Learnexity helped me land my first internship and taught me how to stand out in interviews. I finally feel confident about my career path"</p>
             <p className="font-bold">— Grace E., UNN Graduate</p>
           </div>
           <div className="bg-white rounded-3xl p-4 sm:p-6">
